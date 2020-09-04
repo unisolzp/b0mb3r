@@ -10,24 +10,24 @@
 
 ## 🚀 Установка
 
-1. Установите Python версии не ниже 3.7. Сделать это можно так:
+1. **Установите Python** версии не ниже 3.7. Сделать это можно так:
 
-    <h3>Для Windows</h3>
+    #### Для Windows
 
     Скачайте установщик с [официального сайта](https://www.python.org/downloads/) и запустите его. Убедитесь, что при установке отметили галочку ![Add Python to PATH](https://user-images.githubusercontent.com/42045258/69171091-557d2780-0b0c-11ea-8adf-7f819357f041.png)
 
-    <h3>Для Android</h3>
+    #### Для Android
 
     Установите приложение [Termux](https://play.google.com/store/apps/details?id=com.termux), запустите его и введите следующую команду:
      ```sh
      pkg install python clang make openssl -y
      ```
-     <h3>Для Linux</h3>
+     #### Для Linux
 
      Скорее всего, у вас уже установлен Python 3. Если это не так, следуйте [инструкции](https://realpython.com/installing-python/#linux)
      
 
-2. Установите b0mb3r, введя следующую команду в [командную строку](http://comp-profi.com/kak-vyzvat-komandnuyu-stroku-ili-konsol-windows/) (Windows), терминал (Linux) или Termux (Android):
+2. **Установите b0mb3r**, введя следующую команду в [командную строку](http://comp-profi.com/kak-vyzvat-komandnuyu-stroku-ili-konsol-windows/) (Windows), терминал (Linux) или Termux (Android):
 
 ```sh
 pip3 install b0mb3r -U
@@ -60,7 +60,7 @@ pip3 install b0mb3r -U
 ## Contributors ✨
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-11-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-12-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
@@ -83,6 +83,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/aiexz"><img src="https://avatars3.githubusercontent.com/u/42418433?v=4?s=100" width="100px;" alt=""/><br /><sub><b>aiexz</b></sub></a><br /><a href="https://github.com/crinny/b0mb3r/commits?author=aiexz" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/GameTrue"><img src="https://avatars3.githubusercontent.com/u/45202887?v=4?s=100" width="100px;" alt=""/><br /><sub><b>GameTrue</b></sub></a><br /><a href="https://github.com/crinny/b0mb3r/issues?q=author%3AGameTrue" title="Bug reports">🐛</a> <a href="https://github.com/crinny/b0mb3r/commits?author=GameTrue" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/AntsiferovBogdan"><img src="https://avatars1.githubusercontent.com/u/58101453?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Antsiferov Bogdan</b></sub></a><br /><a href="https://github.com/crinny/b0mb3r/commits?author=AntsiferovBogdan" title="Code">💻</a> <a href="#design-AntsiferovBogdan" title="Design">🎨</a></td>
+    <td align="center"><a href="https://vipapp.site/"><img src="https://avatars2.githubusercontent.com/u/46930374?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Alex Sokol</b></sub></a><br /><a href="https://github.com/crinny/b0mb3r/commits?author=y9san9" title="Documentation">📖</a></td>
   </tr>
 </table>
 
