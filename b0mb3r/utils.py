@@ -1,3 +1,4 @@
+import asyncio
 import os
 import re
 import subprocess
@@ -5,7 +6,6 @@ import sys
 import webbrowser
 from functools import lru_cache
 from typing import Awaitable, Callable
-import asyncio
 
 from loguru import logger
 

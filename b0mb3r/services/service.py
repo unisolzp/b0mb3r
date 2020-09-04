@@ -33,7 +33,9 @@ class Service(ABC):
         self.username = self.password = "".join(
             random.choice(string.ascii_letters) for _ in range(12)
         )
-        self.email = self.username + "@gmail.com"
+        self.email = (
+            f"{self.username}@{random.choice(['gmail.com', 'mail.ru', 'yandex.ru'])}"
+        )
 
     async def get(self, *args, **kwargs):
         return await self.request_logger(self.client.get, *args, **kwargs)
@@ -73,4 +75,4 @@ class Service(ABC):
 
     @abstractmethod
     async def run(self):
-        pass
+        raise NotImplementedError
