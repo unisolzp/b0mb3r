@@ -48,11 +48,7 @@ class Service(ABC):
 
     async def request_logger(self, function: Callable, *args, **kwargs):
         response = await function(*args, **kwargs, timeout=3)
-        if response.is_error:
-            logger.info(
-                f"{self.__class__.__name__} returned an error HTTP code: {response.status_code}"
-            )
-
+        logger.info(f"{self.__class__.__name__} returned an error HTTP code: {response.status_code}")
         return response
 
     async def get_csrf_token(self, url: str, pattern):
